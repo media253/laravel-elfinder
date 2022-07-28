@@ -14,10 +14,16 @@
             "email": "barryvdh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:media253/elFinder"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "illuminate/support": "^9.0",
-        "studio-42/elfinder": "~2.1.49",
+        "studio-42/elfinder": "dev-master",
         "barryvdh/elfinder-flysystem-driver": "^0.4.2"
     },
     "autoload": {
